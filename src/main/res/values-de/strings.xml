@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">SeniorGPS</string>
+    <string name="action_settings">Einstellung</string>
+    <string name="about">Über aplikation</string>
+    <string name="information">Information</string>
+    <string name="title_activity_settings">Einstellung</string>
+    <string name="person_name">Name und Familienname</string>
+    <string name="phone_number">Notruf</string>
+    <string name="gps_range">GPS range</string>
+    <string name="title_activity_record">Eintrag</string>
+    <string name="text_adresa">Adrese</string>
+    <string name="title_activity_help">Hilfe</string>
+    <string name="text_info">SeniorGPS kontroliert die bewegung der Person auf den lernten Weg. Wenn die Person nicht auf dem Weg ist, sendet sich die SMS auf die Telefonnummer mit der Lage der Person in den periodischen Intervallen, Solange er wieder nicht auf den richtigen Weg zurückkommt. \n
+        <br>Breite des Weges stellt man im Menu Einstellung.</br>
+        <br>\n Auf den Wegen in die großen Gebäuden(Krankenhäuser, Einkaufszentren, Hypermarkten) haben sie im Gedächtnis, dass der erste und der letzte Punkt des Weges größer als der angestellte Umkreis ist.</br>
+        <br>\n Nach Zehn zusammenhängenden Kontrolen außer dem Weg aktiviert sich der Punkt des Notrufes</br>
+        <br>\n Für identifikation der aktuelen Lage des Telefon die Besitzerssenden senden Sie eine SMS in der Form WO BIST DU und umgehend bekommen Sie die aktuelen Koordinaten.</br>
+        </string>
+    <string name="call_for_help">Hilfe rufen!</string>
+    <string name="person_is_away_on">Die Person ist außer dem Weg :</string>
+    <string name="SMS_help_WHERE_ARE_YOU"> Für aktuele Lage senden sie SMS in der Form \"WO BIST DU\"."</string>
+    <string name="no_track_avaible">Aplikation ohne der Quele des Weges eingeschaltet.</string>
+    <string name="Track_exception">Weg- Fehler: </string>
+    <string name="no_settings_avaible">Aplikation ohne der Quele von der Einstellung eingeschaltet.</string>
+    <string name="no_settings_exception">Einstellung- Fehler: </string>
+    <string name="settings_saved">Einstellung erfolgreich eingelegen. \n</string>
+    <string name="position">Position: N </string>
+    <string name="location_sent">Lokation des mobilen Telefons angesendet :</string>
+    <string name="sms_failed">Das Senden war nicht erfolgreich, versuchen sie es später. \n\n SMS:</string>
+    <string name="ticks">Die Zahl der eingelegenden Bewegungspunkten : </string>
+    <string name="accept">Bestätigung der Wahl</string>
+    <string name="unreversable_delete_warning">Irreversible Löschung jemaliges Weges! Wollen sie wirklich fortsetzen?</string>
+    <string name="yes">Ja</string>
+	<string name="no">Nein</string>
+	<string name="all_tracks_deleted">Alle bisherige Wäge augelöscht!</string>
+	<string name="track_saved">Der Weg wurde erfolgreich gespeichert. \n </string>
+	<string name="recording"> es läuft die Aufzeichnung des Weges: \n N </string>
+	<string name="warning_recording"> Bei der Forsetzung beginnt die Aplikation sofort der Lage des Weges speichern. Diese Lage können sie dann zu dem ursprünglichen Weg zugeben, oder mit dem Druckknopf zurück wegwerfen. Sind sie zu aufnehmen bereit?</string>
+	<string name="WHERE_ARE_YOU">wo bist du</string>
+	<string name="response">Gezwungende SMS: Die Person ist auf </string>
+	<string name="for_update_send"> Für aktuele Pozition senden Sie eine SMS in der Form \"WO BIST DU\".</string>
+	<string name="distance">Abstand von dem Weg:</string>
+	<string name="start_recording">  mit der Aufnahme des Weges beginnen</string>
+	<string name="save_settings">Einstellungen speichern</string>
+	<string name="add_track"> Zur Originaldaten die neue erworbene Position zugeben</string>
+	<string name="delete_all_tracks">Allen gespeicherten Wege löschen (unwiederbringlich)</string>
+    <string name="delete_some_tracks">Smazat cestu</string>
+    <string name="monitoring">Überprüfung der Position</string>
+    <string name="sendsms">Senden SMS</string>
+    <string name="Add_Geofence">Hinzufügen Geofence</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid type</string>
+    <string name="geofence_transition_notification_text">Geofence transition notification</string>
+    <string name="geofence_transition_entered">Der Eintritt in die sichere Zone</string>
+    <string name="geofence_transition_exited"> Die Ausgabe von der sicheren Zone</string>
+    <string name="unknown_geofence_transition">Unbekannter Status Geofence</string>
+    <string name="not_connected">GoogleApiClient not connected</string>
+    <string name="geofence_not_available">Geofence ist nicht verfügbar</string>
+    <string name="geofence_too_many_geofences">zu viel geofences</string>
+    <string name="geofence_too_many_pending_intents">zu viel intents</string>
+    <string name="unknown_geofence_error"> Unbekannter Fehler Geofence</string>
+    <string name="no_geocoder_available">Adressübersetzung ist nicht verfügbar</string>
+    <string name="address_found">Address found</string>
+    <string name="no_location_data_provided">Keine Standortdaten</string>
+    <string name="Remove_Geofence">Entfernen Geofence</string>
+    <string name="geofence_saved">Geofence gespeichern</string>
+
+</resources>

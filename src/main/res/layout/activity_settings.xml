@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="82dip"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SettingsActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/person_name" />
+
+    <EditText
+        android:id="@+id/person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textAdresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/person_name"
+        android:layout_below="@+id/person_name"
+        android:text="@string/text_adresa" />
+
+    <EditText
+        android:id="@+id/editAdresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/person_name"
+        android:layout_alignRight="@+id/person_name"
+        android:layout_below="@+id/textAdresa"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editAdresa"
+        android:layout_below="@+id/editAdresa"
+        android:text="@string/phone_number" />
+
+    <EditText
+        android:id="@+id/phone_number_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editAdresa"
+        android:layout_alignRight="@+id/editAdresa"
+        android:layout_below="@+id/phone_number"
+        android:ems="10"
+        android:inputType="phone" />
+    
+    <TextView
+        android:id="@+id/seekBarValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:ems="10"
+        android:enabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:longClickable="false"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/seekBar1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monitoringSwitch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:indeterminate="false" />
+
+    <Button
+        android:id="@+id/buttonRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#33B5E5"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:text="@string/start_recording"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/phone_number"
+        android:layout_alignEnd="@+id/phone_number" />
+
+    <Button
+        android:id="@+id/buttonSaveSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#33B5E5"
+        android:minHeight="48dp"
+        android:padding="5dp"
+        android:text="@string/save_settings"
+        android:layout_alignTop="@+id/buttonRecord"
+        android:layout_alignRight="@+id/seekBar1"
+        android:layout_alignEnd="@+id/seekBar1" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monitoring"
+        android:id="@+id/monitoringSwitch"
+        android:checked="false"
+        android:layout_below="@+id/phone_number_edit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendsms"
+        android:id="@+id/smsCheck"
+        android:checked="false"
+        android:layout_below="@+id/monitoringSwitch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/gps_range"
+        android:id="@+id/textView"
+        android:layout_below="@+id/smsCheck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

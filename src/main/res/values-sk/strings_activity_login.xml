@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_login">Prihlásenie</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Heslo</string>
+    <string name="action_sign_in_register">Vstoupit</string>
+    <string name="action_sign_in_short">Prihlásiť</string>
+    <string name="action_forgot_password">Obnoviť zabudnuté heslo</string>
+    <string name="login_progress_signing_in">Prihlasujem&#8230;</string>
+    <string name="error_invalid_email">Neplatný email</string>
+    <string name="error_field_required">Povinné pole</string>
+	<string name="error_invalid_password">Krátke heslo</string>
+    <string name="error_incorrect_password">Neplatné heslo</string>
+
+</resources>

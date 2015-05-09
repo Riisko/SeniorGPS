@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">SeniorGPS</string>
+    <string name="action_settings">Настройки</string>
+    <string name="about">О приложении</string>
+    <string name="information">Информация</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="person_name">Имя Фамилия</string>
+    <string name="phone_number">Телефон экстренной связи</string>
+    <string name="gps_range">GPS range</string>
+    <string name="title_activity_record">Запись</string>
+    <string name="text_adresa">Адрес</string>
+    <string name="title_activity_help">Помощь</string>
+    <string name="text_info">SeniorGPS контролирует передвижение человека по заученному маршруту. Если человек окажется вне маршрута,автоматически отправится SMS сообщение на заданный телефонный номер с местоположением человека в периодических интервалах, пока он не вернется на наставленный маршрут.\n
+        <br>\n Ширина пути задается в меню в настроек.</br>
+        <br>\n При походе к большим зданиям(больницы, торговые центры, гипермаркеты) имейте в виду, что первая и последняя точка маршрута имеет ширину в 10 раз больше чем та, которая задана. \n</br>
+        <br>\n После того как человек 10 раз окажется вне маршрута, активируется кнопка для вызова помощи. \n</br>
+        <br>\n Для определения актуального положения владельца телефона, отправьте SMS с текстом ГДЕ ТЫ и обратно Вам придут актуальные координаты. \n </br>
+        </string>
+    <string name="call_for_help">Позвать на помощь!</string>
+    <string name="person_is_away_on">Человек вне маршрута :</string>
+    <string name="SMS_help_WHERE_ARE_YOU"> Для актуального местоположения отправьте SMS с текстом \"ГДЕ ТЫ?\"."</string>
+    <string name="no_track_avaible">Маршрут ненайден.</string>
+    <string name="Track_exception">Ошибка маршрута: </string>
+    <string name="no_settings_avaible">Настройки не найдены.</string>
+    <string name="no_settings_exception">Ошибка настроек: </string>
+    <string name="settings_saved">Настройки были успешно сохранены. \n</string>
+    <string name="position">Позиция: N </string>
+    <string name="location_sent">Расположение мобильного телефона было отправлено на:</string>
+    <string name="sms_failed">Отправка не удалась, пожалуйста попробуйте позже. \n\n SMS:</string>
+    <string name="ticks">Количество сохраненных точек перемещения: </string>
+    <string name="accept">Подтверждение выбора</string>
+    <string name="unreversable_delete_warning">Безвозвратное удаление существующего маршрута! Хотите продолжить?</string>
+    <string name="yes">Да</string>
+	<string name="no">Нет</string>
+	<string name="all_tracks_deleted">Все существующие маршруты удалены!</string>
+	<string name="track_saved">Маршрут был успешно сохранён. \n </string>
+	<string name="recording">Занесение маршрута: \n N </string>
+	<string name="warning_recording">При продолжении приложение моментально начнет записывать позицию маршрута, которую впоследствии можете ДОБАВИТЬ к исходному маршруту, или удалить нажатием кнопки назад. Вы готовы записывать?</string>
+	<string name="WHERE_ARE_YOU">где ты</string>
+	<string name="response">Вынужденная SMS: Человек на позиции </string>
+	<string name="for_update_send"> Для актуального местоположения отправьте SMS с текстом \"ГДЕ ТЫ\".</string>
+	<string name="distance"> Расстояние от маршрута:</string>
+	<string name="start_recording">Начать запись</string>
+	<string name="save_settings">Сохранить настройки</string>
+	<string name="add_track">Добавить новый путь</string>
+	<string name="delete_all_tracks">Удалить все пути (необратимых)</string>
+    <string name="delete_some_tracks">Delete a path</string>
+    <string name="monitoring">Проверка положение</string>
+    <string name="sendsms">Отправить смс</string>
+    <string name="Add_Geofence">добавлять Geofence</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid type</string>
+    <string name="geofence_transition_notification_text">Geofence transition notification</string>
+    <string name="geofence_transition_entered">Вступление в безопасной зоне</string>
+    <string name="geofence_transition_exited"> Выход из зоны безопасности</string>
+    <string name="unknown_geofence_transition">Неизвестный Geofence статус</string>
+    <string name="not_connected">GoogleApiClient not connected</string>
+    <string name="geofence_not_available">Geofence недоступно</string>
+    <string name="geofence_too_many_geofences">Очень много geofences</string>
+    <string name="geofence_too_many_pending_intents">Очень много intents</string>
+    <string name="unknown_geofence_error">Неизвестная ошибка Geofence</string>
+    <string name="no_geocoder_available">трансляция адреса не доступен</string>
+    <string name="address_found">Address found</string>
+    <string name="no_location_data_provided">Нет данных расположение</string>
+    <string name="Remove_Geofence">удалять Geofence</string>
+    <string name="geofence_saved">Geofence хранить</string>
+
+
+</resources>

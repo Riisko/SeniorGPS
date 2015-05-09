@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">GPS Sênior</string>
+    <string name="action_settings">Configurações</string>
+    <string name="distance">Distância a partir do caminho:</string>
+    <string name="about">Sobre</string>
+    <string name="information">Informações</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="person_name">Nome</string>
+    <string name="phone_number">Em caso de emergência </string>
+    <string name="gps_range">Alcance do GPS (0-100) 10~= Largura da estrada</string>
+    <string name="title_activity_record">Registro</string>
+    <string name="text_adresa">Endereço</string>
+    <string name="title_activity_help">Ajuda</string>
+    <string name="text_info">
+    GPS Sênior está verificando o movimento da pessoa no caminho gravado. Se a pessoa não estiver no caminho, o aplicativo irá enviar uma mensagem de texto para o número de telefone selecionado com a sua posição em intervalos periódicos até a pessoa voltar ao caminho. \n    <br>\n Você pode definir a largura do caminho em configurações. \n</br>
+                <br>\n Cada caminho começa e termina com uma largura de 10x maior do que o conjunto de configurações. Tenha isso em mente que você deve ir para um grande edifício (hospitais, centros comerciais). \n</br>
+                <br>\n Se o telefone verificar  dez vezes seguidas fora do caminho o botão de Chamada por ajuda será ativado.\n</br>
+                <br>\n Para a posição atual do telefone, envie uma mensagem contendo ONDE VOCÊ ESTÁ.\n</br>
+    </string>
+    <string name="call_for_help">Chamada de Ajuda </string>
+    <string name="person_is_away_on">Pessoa está fora da pista :</string>
+    <string name="SMS_help_WHERE_ARE_YOU"> Para a posição do envio atual \ "Onde você está \". "</string>
+    <string name="no_track_avaible"> Aplicação iniciada sem pistas.</string>
+    <string name="Track_exception">Caminho – exceção : </string>
+    <string name="no_settings_avaible">Aplicação iniciada sem configurações.</string>
+    <string name="no_settings_exception">Configurações - exceção: </string>
+    <string name="settings_saved">Configurações salvas com sucesso . \n</string>
+    <string name="position">Posição: N </string>
+    <string name="location_sent"> Localização do dispositivo foi enviada para :</string>
+    <string name="sms_failed">Falha de envio, por favor tente novamente mais tarde. \n\n SMS:</string>
+    <string name="ticks">Números de posições salvas: </string>
+    <string name="accept">Aceitar</string>
+    <string name="unreversable_delete_warning">Excluir caminhos é irreversível! Você tem certeza? </string>
+    <string name="yes">Sim </string>
+    <string name="no">Não</string>
+    <string name="all_tracks_deleted">Todos os caminhos foram removidos  </string>
+    <string name="track_saved">Caminho salvo com sucesso. \n </string>
+    <string name="recording">Registro em movimento: \n N </string>
+    <string name="warning_recording"> Se continuar, a aplicação irá iniciar a registrar  seu movimento. Você pode adicioná-lo aos seus caminhos atuais no final ou não. Você está pronto para gravar?</string>
+    <string name="WHERE_ARE_YOU">Onde você está</string>
+    <string name="response">SMS na procura : A pessoa está no </string>
+    <string name="for_update_send"> Para a atual posição, envie uma mensagem contendo \ "Onde você está \".</string>
+    <string name="start_recording">Começar a resgitrar</string>
+    <string name="save_settings">Salvar configurações  </string>
+    <string name="add_track">Adicionar esse novo caminho</string>
+    <string name="delete_all_tracks">Deletar todos os caminhos (irreversível)</string>
+    <string name="delete_some_tracks">Deletar o caminho </string>
+    <string name="monitoring">Verificação da posição de</string>
+    <string name="sendsms">Enviar SMS</string>
+    <string name="Add_Geofence">adicionar Geofence</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid type</string>
+    <string name="geofence_transition_notification_text">Geofence transition notification</string>
+    <string name="geofence_transition_entered">A entrada na zona de segurança</string>
+    <string name="geofence_transition_exited">Saída da zona de segurança</string>
+    <string name="unknown_geofence_transition">Desconhecido geofence estado</string>
+    <string name="not_connected">GoogleApiClient not connected</string>
+    <string name="geofence_not_available">Geofence não está disponível</string>
+    <string name="geofence_too_many_geofences">muito geofences</string>
+    <string name="geofence_too_many_pending_intents">muito intents</string>
+    <string name="unknown_geofence_error">Erro desconhecido geofence</string>
+    <string name="no_geocoder_available">tradução de Endereços não está disponível</string>
+    <string name="address_found">Address found</string>
+    <string name="no_location_data_provided">Sem dados de localização</string>
+    <string name="Remove_Geofence">Remover Geofence</string>
+    <string name="geofence_saved">Geofence armazenado</string>
+</resources>

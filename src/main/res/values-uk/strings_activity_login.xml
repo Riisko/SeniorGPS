@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_login">Вхід</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in_register"><b>Увійти</b> чи зареєструватися</string>
+    <string name="action_sign_in_short">Увійти</string>
+    <string name="action_forgot_password">Відновити забутий пароль</string>
+    <string name="login_progress_signing_in">Вхід&#8230;</string>
+    <string name="error_invalid_email">Невірна адреса електронної пошти</string>
+    <string name="error_field_required">Обов´язкове поле</string>
+    <string name="error_invalid_password">Короткий пароль</string>
+    <string name="error_incorrect_password">Невірний пароль</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">SeniorGPS</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="about">O aplikácii</string>
+    <string name="information">Informácie</string>
+    <string name="title_activity_settings">Nastavenia</string>
+    <string name="person_name">Meno a priezvisko</string>
+    <string name="phone_number">Telefón v núdzi</string>
+    <string name="gps_range">GPS range</string>
+    <string name="title_activity_record">Záznam</string>
+    <string name="text_adresa">Adresa</string>
+    <string name="title_activity_help">Pomoc</string>
+    <string name="text_info">SeniorGPS kontroluje pohyb osoby po naučenej trase. Pokiaľ sa osoba vyskytne mimo trasu, pošle sa SMS správa na nastavené telefónne číslo s polohou osoby v periodických intervaloch, pokiaľ sa nevráti na vyznačenú trasu. \n
+        <br>Šírka cesty sa nastavuje v menu nastaveniach.</br>
+        <br>\n Pri cestách do veľkých budov(nemocnice, nákupné centrá, supermarkety) majte na pamäti, že prvý a posledný bod trasy má šírku 10x väčší, než tá čo je nastavená.</br>
+        <br>\n Po desiatich súvislých kontrolách mimo trasu sa aktivuje tlačítko pre volanie o pomoc</br>
+        <br>\n Pre zistenie aktuálnej polohy majiteľa telefónu, zašlite SMS v tvare KDE SI a obratom vám prídu aktuálne súradnice</br>
+        </string>
+    <string name="call_for_help">Zavolať o pomoc!</string>
+    <string name="person_is_away_on">Osoba je mimo trasu na :</string>
+    <string name="SMS_help_WHERE_ARE_YOU"> Pre aktuálnu pozíciu pošlite SMS v tvare \"KDE SI\"."</string>
+    <string name="no_track_avaible">Aplikácia spustená bez zdroja trasy.</string>
+    <string name="Track_exception">Trasa- chyba: </string>
+    <string name="no_settings_avaible">Aplikácia spustená bez zdroja nastavenia.</string>
+    <string name="no_settings_exception">Nastavenie- chyba: </string>
+    <string name="settings_saved">Nastavenie bolo úspešne uložené. \n</string>
+    <string name="position">Pozícia: N </string>
+    <string name="location_sent">Lokácia mobilného telefónu odoslaná na :</string>
+    <string name="sms_failed">Posielanie sa nezdarilo, skúste to prosím neskôr. \n\n SMS:</string>
+    <string name="ticks">Počet uložených bodov pohybu: </string>
+    <string name="accept">Potvrdenie výberu</string>
+    <string name="unreversable_delete_warning">Nenávratné vymazanie doterajšej trasy! Chcete naozaj pokračovať?</string>
+    <string name="yes">Áno</string>
+	<string name="no">Nie</string>
+	<string name="all_tracks_deleted">Všetky doterajšie trasy vymazané!</string>
+	<string name="track_saved">Trasa bola úspešne uložená. \n </string>
+	<string name="recording">Prebieha zaznamenávanie trasy: \n N </string>
+	<string name="warning_recording">Pri pokračovaní začne aplikácia ihneď nahrávať pozície trasy, ktorú následne môžte PRIDAŤ k pôvodnej trase, alebo ZAHODIŤ pri stlačení tlačítka späť. Ste pripravený nahrávať?</string>
+	<string name="WHERE_ARE_YOU">kde si</string>
+	<string name="response">Vynútená SMS: Osoba je na </string>
+	<string name="for_update_send"> Pre aktuálnu pozíciu pošlite SMS v tvare \"KDE SI\".</string>
+	<string name="distance">Vzdialenosť od trasy:</string>
+	<string name="start_recording">Spustiť nahrávanie trasy</string>
+	<string name="save_settings">Uložiť nastavenia</string>
+	<string name="add_track">Pridať novo získané pozície k pôvodnému súboru</string>
+	<string name="delete_all_tracks">Zmazať všetky uložené trasy (nenávratne)</string>
+    <string name="delete_some_tracks">Delete a path</string>
+    <string name="monitoring">kontrola polohy</string>
+    <string name="sendsms">Posielať SMS</string>
+    <string name="Add_Geofence">Pridať Geofence</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid type</string>
+    <string name="geofence_transition_notification_text">Geofence transition notification</string>
+    <string name="geofence_transition_entered">Vstup do bezpečnej zóny</string>
+    <string name="geofence_transition_exited">Výstup z bezpečnej zóny</string>
+    <string name="unknown_geofence_transition">Neznámy stav GeoFence</string>
+    <string name="not_connected">GoogleApiClient not connected</string>
+    <string name="geofence_not_available">Geofence nie je k dispozícii</string>
+    <string name="geofence_too_many_geofences">príliš veľa geofences</string>
+    <string name="geofence_too_many_pending_intents">príliš veľa intents</string>
+    <string name="unknown_geofence_error">Neznáma chyba GeoFence</string>
+    <string name="no_geocoder_available">Preklad adries nie je k dispoz</string>
+    <string name="address_found">Address found</string>
+    <string name="no_location_data_provided">Žádná lokační data</string>
+    <string name="Remove_Geofence">Odstrániť Geofence</string>
+    <string name="geofence_saved">Geofence uložená</string>
+
+</resources>

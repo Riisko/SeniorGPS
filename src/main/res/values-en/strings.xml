@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">SeniorGPS</string>
+    <string name="action_settings">Settings</string>
+    <string name="distance">Distance from the path:</string>
+    <string name="about">About</string>
+    <string name="information">Information</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="person_name">Name</string>
+    <string name="phone_number">In case of emergency</string>
+    <string name="gps_range">GPS range</string>
+    <string name="title_activity_record">Record</string>
+    <string name="text_adresa">Address</string>
+    <string name="title_activity_help">Help</string>
+    <string name="text_info"> SeniorGPS is checking person´s movement on the recorded path. If the person is not on path, the app will send a text message to selected phone number with its position in periodic intervals until returned on track. \n
+        <br>\n You can set the width of the path in settings. \n</br>
+        <br>\n Each path starts and ends with a circular area 10x bigger than set in settings. Keep that in mind should you go to a big building(hospital, shopping malls). \n</br>
+        <br>\n If the phone checks ten times in a row that you are off the path, Call for help button will activate. \n</br>
+        <br>\n For current position of the phone, send a message containing WHERE ARE YOU. \n</br>
+        </string>
+    <string name="call_for_help">Call for help!</string>
+    <string name="person_is_away_on">Person is off track :</string>
+    <string name="SMS_help_WHERE_ARE_YOU"> For current position send \"WHERE ARE YOU\"."</string>
+    <string name="no_track_avaible">Application started without tracks.</string>
+    <string name="Track_exception">Path- exception: </string>
+    <string name="no_settings_avaible">Application started without settings.</string>
+    <string name="no_settings_exception">Settings- exception: </string>
+    <string name="settings_saved">Settings saved successfully. \n</string>
+    <string name="position">Position: N </string>
+    <string name="location_sent">Location of the device was sent to :</string>
+    <string name="sms_failed">Sending failed, please try again later. \n\n SMS:</string>
+    <string name="ticks">Number of saved positions: </string>
+    <string name="accept">Accept</string>
+    <string name="unreversable_delete_warning">Deleting paths is irreversable! Are you sure?</string>
+    <string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="all_tracks_deleted">All paths removed!</string>
+	<string name="track_saved">Path saved successfully. \n </string>
+	<string name="recording">Recording movement: \n N </string>
+	<string name="warning_recording">If you continue, the application will start recording your movement. You can ADD it to your current paths in the end or not. Are you ready to record?</string>
+	<string name="WHERE_ARE_YOU">where are you</string>
+	<string name="response">SMS on demand: Person is at </string>
+	<string name="for_update_send"> For current position, send a message containing \"WHERE ARE YOU\".</string>
+	<string name="start_recording">Start recording</string>
+	<string name="save_settings">Save settings</string>
+	<string name="add_track">Add this new path</string>
+	<string name="delete_all_tracks">Delete all paths (irreversable)</string>
+    <string name="delete_some_tracks">Delete a path</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="sendsms">Send SMS</string>
+    <string name="Add_Geofence">Add Geofence</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid type</string>
+    <string name="geofence_transition_notification_text">Geofence transition notification</string>
+    <string name="geofence_transition_entered">Safe zone entered</string>
+    <string name="geofence_transition_exited">Safe zone exited</string>
+    <string name="unknown_geofence_transition">Unknown geofence status</string>
+    <string name="not_connected">GoogleApiClient not connected</string>
+    <string name="geofence_not_available">Geofence is not avaible</string>
+    <string name="geofence_too_many_geofences">Too many geofences</string>
+    <string name="geofence_too_many_pending_intents">Too many pending intents</string>
+    <string name="unknown_geofence_error">Uknown geofence error</string>
+    <string name="no_geocoder_available">Address translation is not available</string>
+    <string name="address_found">Address found</string>
+    <string name="no_location_data_provided">No location data</string>
+    <string name="Remove_Geofence">Remove Geofence</string>
+    <string name="geofence_saved">Geofence saved</string>
+
+</resources>

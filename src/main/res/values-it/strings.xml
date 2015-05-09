@@ -1,0 +1,68 @@
+<resources>
+
+    <string name="app_name">SeniorGPS</string>
+    <string name="action_settings">Impostazioni</string>
+	<string name="distance">Distanza dal percorso</string>
+    <string name="about">Informazioni dell´applicazione</string>
+    <string name="information">Informazioni</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="person_name">Nome e cognome</string>
+    <string name="phone_number">Numero di telefono in caso di emergenza</string>
+    <string name="gps_range">GPS range</string>
+    <string name="title_activity_record">Registrazione</string>
+    <string name="text_adresa">Indirizzio</string>
+    <string name="title_activity_help">Aiuto</string>
+    <string name="text_info">SeniorGPS controlla il movimento della persona sul percorso registrato. Quando la persona é fuori dal percorso, l´app manderá un messaggio al numero selezionato con la posizione della persona a intervalli periodici, finché non si torna sul percorso. \n
+        <br>\n La larghezza del percorso si stabilisce nelle impostazioni.</br>
+        <br>\n Se dovete raggiungere grandi edifici(ospedali, centri commerciali, ipermercati) tenete sempre presente che ogni percorso inizia e finisce con un´area circolare dieci volte più grande di quella impostata. \n</br>
+        <br>\n Dopo dieci controlli consecutivi fuori dal percorso, si attiva un bottone per chiamare aiuto. \n</br>
+        <br>\n Per scoprire la posizione attuale del proprietario del telefono, mandate un messaggio con scritto DOVE SEI e immediatamente riceverete le coordinate attuale. \n</br>
+        </string>
+    <string name="call_for_help">Chiamare aiuto!</string>
+    <string name="person_is_away_on">Persona è fuori dal percorso :</string>
+    <string name="SMS_help_WHERE_ARE_YOU">Per la posizione attuale mandate un messaggio nella forma \”DOVE SEI\”.”</string>
+    <string name="no_track_avaible">L´applicazione è avviata senza un percorso.</string>
+    <string name="Track_exception">Errore di percorso: </string>
+    <string name="no_settings_avaible">L´applicazione è stata avviata senza impostazioni.</string>
+    <string name="no_settings_exception">Errore di mancanza di impostazioni: </string>
+    <string name="settings_saved">Le impostazioni sono state salvata con successo. \n</string>
+    <string name="position">Posizione: N </string>
+    <string name="location_sent">La posizione del telefonino é stata mandata su :</string>
+    <string name="sms_failed">Invio non riuscito, prova più tardi, per favore. \n\n SMS:</string>
+    <string name="ticks">Numero totale delle posizioni salvate: </string>
+    <string name="accept">Conferma della scelta</string>
+    <string name="unreversable_delete_warning">Se cancelli il percorso non puoi piú recuperarlo! Vuoi continuare verramente?</string>
+    <string name="yes">Sì</string>
+	<string name="no">No</string>
+	<string name="all_tracks_deleted">Tutti i percorsi sono stati cancellate!</string>
+	<string name="track_saved">Percorso salvato con successo. \n </string>
+	<string name="recording">Stiamo registrando i movimenti: \n N </string>
+	<string name="warning_recording">Se continui l`applicazione inizia a registare i tuoi movimenti, che potete successivamente AGGIUNGERE o ANNULLARE premendo il pulsante indietro. Siete pronti a registrarla?</string>
+	<string name="WHERE_ARE_YOU">dove sei</string>
+	<string name="response">SMS automatico: Persona è in </string>
+	<string name="for_update_send"> Per la posizione attuale mandate un messaggio nella forma \”DOVE SEI\".</string>
+	<string name="start_recording">Avviare la registrazione</string>
+	<string name="save_settings">Salvare le impostazioni</string>
+	<string name="add_track">Aggiungere questo nuovo percorso</string>
+	<string name="delete_all_tracks">Eliminare tutti i percorsi (azione irreversibile)</string>
+    <string name="delete_some_tracks">Delete a path</string>
+    <string name="monitoring"> Controllo della posizione di</string>
+    <string name="sendsms">Invia SMS</string>
+    <string name="Add_Geofence">Aggiungere Geofence</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid type</string>
+    <string name="geofence_transition_notification_text">Geofence transition notification</string>
+    <string name="geofence_transition_entered">Entrata in zona sicura</string>
+    <string name="geofence_transition_exited">Uscita dalla zona di sicurezza</string>
+    <string name="unknown_geofence_transition">Stato sconosciuto geofence</string>
+    <string name="not_connected">GoogleApiClient not connected</string>
+    <string name="geofence_not_available">Geofence non è disponibile</string>
+    <string name="geofence_too_many_geofences">troppi geofences</string>
+    <string name="geofence_too_many_pending_intents">troppi intents</string>
+    <string name="unknown_geofence_error">Errore sconosciuto geofence</string>
+    <string name="no_geocoder_available">traduzione Indirizzo non è disponibile</string>
+    <string name="address_found">Address found</string>
+    <string name="no_location_data_provided">Nessun dato luogo</string>
+    <string name="Remove_Geofence">Rimuovere Geofence</string>
+    <string name="geofence_saved">Geofence memorizzata</string>
+
+</resources>
